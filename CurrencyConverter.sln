@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "src\CurrencyConverter\CurrencyConverter.csproj", "{0488631B-83B1-4C2B-A376-41C9EB18C6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "src\BuildingBlocks\BuildingBlocks.csproj", "{F8756129-0B4C-495D-9683-70F0062FCD99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrankfurterApi.SDK", "src\FrankfurterApi.SDK\FrankfurterApi.SDK.csproj", "{01D22663-6944-4941-BC65-2F9FF9E3CC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.UnitTests", "src\CurrencyConverter.UnitTests\CurrencyConverter.UnitTests.csproj", "{5FCCEF2B-D63E-491A-84AB-76AAD23F40B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0488631B-83B1-4C2B-A376-41C9EB18C6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0488631B-83B1-4C2B-A376-41C9EB18C6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0488631B-83B1-4C2B-A376-41C9EB18C6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0488631B-83B1-4C2B-A376-41C9EB18C6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8756129-0B4C-495D-9683-70F0062FCD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8756129-0B4C-495D-9683-70F0062FCD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8756129-0B4C-495D-9683-70F0062FCD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8756129-0B4C-495D-9683-70F0062FCD99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D22663-6944-4941-BC65-2F9FF9E3CC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D22663-6944-4941-BC65-2F9FF9E3CC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D22663-6944-4941-BC65-2F9FF9E3CC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D22663-6944-4941-BC65-2F9FF9E3CC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCCEF2B-D63E-491A-84AB-76AAD23F40B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCCEF2B-D63E-491A-84AB-76AAD23F40B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCCEF2B-D63E-491A-84AB-76AAD23F40B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCCEF2B-D63E-491A-84AB-76AAD23F40B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+networks:
+  currency-converter-net:
+    name: currency-converter-net
+
+services:
+  currency-converter-api:
+    build:
+      context: .
+      dockerfile: ./src/CurrencyConverter/Dockerfile
+    image: currency-converter
+    container_name: currency-converter
+    environment:
+      - ASPNETCORE_URLS=http://*:5000
+    networks:
+      - currency-converter-net
+    ports:
+      - "5000:5000"
+    restart: always
+
+  unit-tests:
+    build:
+      context: .
+      dockerfile: ./src/CurrencyConverter.UnitTests/Dockerfile
+    image: unit-tests
+    container_name: unit-tests
