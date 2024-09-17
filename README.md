@@ -46,19 +46,19 @@ make unit-test
 
 ## Endpoints
 
-### Retrieve the latest exchange rates for a specific base currency (e.g., EUR)
+### Retrieve the latest exchange rates
 
 Method: GET
 
 URI: /api/v1/currency/latest?from=EUR
 
-### Allow users to convert amounts between different currencies. In case of TRY, PLN, THB, and MXN currency conversions, the endpoint should return a bad response and these currencies should be excluded from response.
+### Convert amounts between different currencies
 
 Method: GET
 
 URI: /api/v1/currency/convert?amount=1&fromcurrency=USD&tocurrency=CHF
 
-### Return a set of historical rates for a given period using pagination based on a specific base currency. (e.g., 2020-01-01..2020-01-31, base EUR)
+### Return historical rates for a given period using pagination based on a specific base currency
 
 Method: GET
 
